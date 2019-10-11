@@ -15,7 +15,7 @@ def normalizeRows(x):
 def softmax(x):
     """Compute the softmax function for each row of the input x.
     It is crucial that this function is optimized for speed because
-    it will be used frequently in later code. 
+    it will be used frequently in later code.
 
     Arguments:
     x -- A D dimensional vector or N x D dimensional numpy matrix.
@@ -41,3 +41,8 @@ def softmax(x):
 
     assert x.shape == orig_shape
     return x
+
+
+a = np.array([1])
+print(len(a))
+print(a.shape)
